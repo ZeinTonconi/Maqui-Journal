@@ -21,4 +21,10 @@ me quede estancado como MEDIA HORA tratando de ORGANIZAR LOS PASOS Y PIEZAS para
 (Primero hacia la dimension X, luego la Y), entonces he confundido un "Problema de Implementacion" <br/>
 con lo que deberia haber sido un "Problema de Estructuracion Logica". <br/>
 
-Especificamente: <br/>
+Especificamente con "Problema de Estructuracion Logica" aca me refiero a: <br/>
+
+## Profundidad de pensamiento Logico (por Casos): <br/>
+
+* Se puede visualizar como un Arbol donde cada arista a un hijo es 1 CASO (se "particiona" el "Espacio de Posibilidades"). <br/>
+* El hijo (nodo) representa "lo que se va a hacer" o sea "EL PROCESO". <br/>
+* NOTA: Normalmente hasta NO completar este Arbol de Profunidad, no se tiene la solucion completa al problema, es decir, HAY INCERTIDUMBRE hasta COMPLETAR EL ARBOL.
