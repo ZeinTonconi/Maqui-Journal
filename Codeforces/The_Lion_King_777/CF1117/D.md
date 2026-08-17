@@ -17,11 +17,9 @@ a codear y averiguarlo durante el camino"... Error GRAVISIMO. <br/>
 # 3. Tiempo de implementacion:
 **46 minutos**, esto fue por delegar un problema que era de estructurar bien los casos <br/>
 (deberia ir en el "Tiempo de pensamiento") a un "Problema de implementacion", basicamente <br/>
-me quede estancado como MEDIA HORA tratando de **ORGANIZAR LOS PASOS Y PIEZAS** para la dimension Y. <br/>
+me quede estancado como MEDIA HORA tratando de $\color{#CC2936}{\text{\bf ORGANIZAR LOS PASOS Y PIEZAS}}$ para la dimension Y. <br/>
 (Primero hacia la dimension X, luego la Y), entonces he confundido un "Problema de Implementacion" <br/>
 con lo que deberia haber sido un "Problema de Estructuracion Logica". <br/>
-
-tratando de **ORGANIZAR LOS PASOS Y PIEZAS** para la $\color{#CC2936}{\text{\bf DIMENSIÓN Y}}$
 
 
 Especificamente con "Problema de Estructuracion Logica" aca me refiero a: <br/>
@@ -36,4 +34,4 @@ Especificamente con "Problema de Estructuracion Logica" aca me refiero a: <br/>
 
 * Una observacion particular de este problema tambien es que le ponemos de nombre "Profundidad de pensamiento Logico" porque en el mismo proceso de crear la flowchart se obtuvo la solucion, pero como en todo, hubo un GRADO DE INCERTIDUMBRE: No obtuvimos la solucion completa hasta completar la flowchart... si, obtuvimos soluciones a problemas "PARCIALES/SIMILARES" al original (ejemplo: la parte donde se soluciona para cuando y=infinito y x puede ser cualquier numero que el input lo permite), pero solo al completarlo se obtuvo la "full solution".
 
-* Por lo tanto es cierto: no era un problema de implementacion, era un problema de estructuracion logica (si estructuraba bien y <span style="color: red">COMPLETO</span> el proceso en un flowchart, la implementacion era traducir esa logica a c++).
+* Por lo tanto es cierto: no era un problema de implementacion, era un problema de estructuracion logica (si estructuraba bien y $\color{#CC2936}{\text{\bf COMPLETO}}$ el proceso en un flowchart, la implementacion era traducir esa logica a c++).
