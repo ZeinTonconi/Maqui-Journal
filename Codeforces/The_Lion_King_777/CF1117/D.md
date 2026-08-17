@@ -9,7 +9,7 @@ Hacer una **representacion visual del MODELO MATEMATICO mas CONCRETO Y COMPLEJO*
 dibujo **hacer MATCHEAR las palabras del statement con el dibujo**. <br/>
 **Rehacer el MODELO hasta lograr el MATCH**: Un modelo matematico es NO ambiguo.
 
-* Los problem statements SIEMPRE proveen un MODELO MATEMATICO.
+* Los problem statements SIEMPRE proveen un MODELO MATEMATICO. https://codeforces.com/blog/entry/62730
 
 # 2. Tiempo de pensamiento:
 **16 minutos**, esto fue para "demostrar que mi Core idea funciona", sin embargo <br/>
