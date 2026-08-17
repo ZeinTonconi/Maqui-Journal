@@ -6,4 +6,5 @@ parrafos del statement.
 
 # solucion para evitar leer DEMASIADAS veces el statement:
 Hacer una **representacion visual mas CONCRETA** y en base a este <br/>
-dibujo **hacer MATCHEAR las palabras del statement con el dibujo**
+dibujo **hacer MATCHEAR las palabras del statement con el dibujo**. <br/>
+**Rehacer el dibujo hasta lograr el MATCH**.
