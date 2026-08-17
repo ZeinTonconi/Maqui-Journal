@@ -17,14 +17,20 @@ a codear y averiguarlo durante el camino"... Error GRAVISIMO. <br/>
 # 3. Tiempo de implementacion:
 **46 minutos**, esto fue por delegar un problema que era de estructurar bien los casos <br/>
 (deberia ir en el "Tiempo de pensamiento") a un "Problema de implementacion", basicamente <br/>
-me quede estancado como MEDIA HORA tratando de ORGANIZAR LOS PASOS Y PIEZAS para la dimension Y. <br/>
+me quede estancado como MEDIA HORA tratando de <span style="color: red">**ORGANIZAR LOS PASOS Y PIEZAS**</span> para la dimension Y. <br/>
 (Primero hacia la dimension X, luego la Y), entonces he confundido un "Problema de Implementacion" <br/>
 con lo que deberia haber sido un "Problema de Estructuracion Logica". <br/>
 
 Especificamente con "Problema de Estructuracion Logica" aca me refiero a: <br/>
 
-## 3.1. (que deberia ser 2.1. en realidad) Profundidad de pensamiento Logico (por Casos): <br/>
+## 3.1. (que deberia ser 2.1. en realidad) Profundidad de pensamiento Logico: <br/>
 
-* Se puede visualizar como un Arbol donde cada arista a un hijo es 1 CASO (se "particiona" el "Espacio de Posibilidades"). <br/>
-* El hijo (nodo) representa "lo que se va a hacer" o sea "EL PROCESO". <br/>
-* NOTA: Normalmente hasta NO completar este Arbol de Profunidad, no se tiene la solucion completa al problema, es decir, HAY INCERTIDUMBRE hasta COMPLETAR EL ARBOL.
+* Se usa un FLOWCHART https://en.wikipedia.org/wiki/Flowchart para ORGANIZAR los CASOS Y PROCESOS.
+* Sacado del link: "Two of the many benefits are that flaws and bottlenecks may become apparent.".
+* POR QUE podemos darnos cuenta de fallas/bottlenecks en las flowcharts? porque en realidad un flowchart contiene INFORMACION LOGICA (CASOS, PROCESOS...).
+* En este caso particular, el "Problema de Estructuracion Logica" encaja perfectamente con que en Flowcharts podemos hacer CASOS (if) pero no de la forma "convencional" sino que estos CASOS contienen INFORMACION MATEMATICA (particularmente en este problema es util PARTICIONAR el "Espacio Muestral de Posibilidades" en dichos CASOS y se pueden ver las cajitas de "PROCESO" como una "TRANSFORMACION de un OBJETO/FUNCION" (un ejemplo de esto es una Transformacion Lineal) y por lo tanto luego de aplicar esta "FUNCION" nosotros SABEMOS LO QUE NOS VA A DEVOLVER ESA FUNCION, en este problema particular se podria observar que primero se transforma el objeto "px" en la suma del prefijo hasta la coordenada x de la query).
+* En resumen, el flowchart contiene INFORMACION LOGICA MATEMATICA que nos ayuda a debugear nuestra PROPIA LOGICA (INTERNA).
+
+* Una observacion particular de este problema tambien es que le ponemos de nombre "Profundidad de pensamiento Logico" porque en el mismo proceso de crear la flowchart se obtuvo la solucion, pero como en todo, hubo un GRADO DE INCERTIDUMBRE: No obtuvimos la solucion completa hasta completar la flowchart... si, obtuvimos soluciones a problemas "PARCIALES/SIMILARES" al original (ejemplo: la parte donde se soluciona para cuando y=infinito y x puede ser cualquier numero que el input lo permite), pero solo al completarlo se obtuvo la "full solution".
+
+* Por lo tanto es cierto: no era un problema de implementacion, era un problema de estructuracion logica (si estructuraba bien y <span style="color: red">COMPLETO</span> el proceso en un flowchart, la implementacion era traducir esa logica a c++).
