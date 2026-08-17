@@ -26,7 +26,7 @@ Especificamente con "Problema de Estructuracion Logica" aca me refiero a: <br/>
 
 ## 3.1. (que deberia ser 2.1. en realidad) Profundidad de pensamiento Logico: <br/>
 
-* Se usa un FLOWCHART https://en.wikipedia.org/wiki/Flowchart para ORGANIZAR los CASOS Y PROCESOS.
+* Se usa un FLOWCHART https://en.wikipedia.org/wiki/Flowchart para ORGANIZAR los INFORMACION LOGICA.
 * Sacado del link: "Two of the many benefits are that flaws and bottlenecks may become apparent.".
 * POR QUE podemos darnos cuenta de fallas/bottlenecks en las flowcharts? porque en realidad un flowchart contiene INFORMACION LOGICA (CASOS, PROCESOS...).
 * En este caso particular, el "Problema de Estructuracion Logica" encaja perfectamente con que en Flowcharts podemos hacer CASOS (if) pero no de la forma "convencional" sino que estos CASOS contienen INFORMACION MATEMATICA (particularmente en este problema es util PARTICIONAR el "Espacio Muestral de Posibilidades" en dichos CASOS y se pueden ver las cajitas de "PROCESO" como una "TRANSFORMACION de un OBJETO/FUNCION" (un ejemplo de esto es una Transformacion Lineal) y por lo tanto luego de aplicar esta "FUNCION" nosotros SABEMOS LO QUE NOS VA A DEVOLVER ESA FUNCION, en este problema particular se podria observar que primero se transforma el objeto "px" en la suma del prefijo hasta la coordenada x de la query).
