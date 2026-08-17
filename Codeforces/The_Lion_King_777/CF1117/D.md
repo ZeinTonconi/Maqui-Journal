@@ -17,7 +17,7 @@ a codear y averiguarlo durante el camino"... Error GRAVISIMO. <br/>
 # 3. Tiempo de implementacion:
 **46 minutos**, esto fue por delegar un problema que era de estructurar bien los casos <br/>
 (deberia ir en el "Tiempo de pensamiento") a un "Problema de implementacion", basicamente <br/>
-me quede estancado como MEDIA HORA tratando de <span style="color: red">**ORGANIZAR LOS PASOS Y PIEZAS**</span> para la dimension Y. <br/>
+me quede estancado como MEDIA HORA tratando de $\color{red}{\text{**ORGANIZAR LOS PASOS Y PIEZAS**}}$ para la dimension Y. <br/>
 (Primero hacia la dimension X, luego la Y), entonces he confundido un "Problema de Implementacion" <br/>
 con lo que deberia haber sido un "Problema de Estructuracion Logica". <br/>
 
