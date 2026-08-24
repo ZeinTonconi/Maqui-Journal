@@ -17,4 +17,4 @@ Mainly because after solving it I observed the solving process: my mind was tryi
 * Third I thought "maybe it's HLD" but couldn't connect further ideas with that main idea.
 * Finally, I remembered the Divide and Conquer video that I saw a lot of time ago, and the "beautiful thing" was that I DIDN'T NEED TO FORCE TOO MUCH to connect THIS IDEA with the problem, I just **tried to do SOMETHING WITH THE IDEAS THAT WERE ALREADY THERE, NO FORCING, JUST TESTING**, and IT WORKED.
 
-So the **KEY IDEA** for this problem was to do MORE DIVERGENT THINKING (GENERATING PATTERNS) and TESTING IF THEY ARE A GOOD FIT (straight to the point, wihtout "forcing too much" an ACCOMODATION).
+So the **KEY IDEA** for this problem was to do MORE DIVERGENT THINKING **(GENERATING PATTERNS) and TESTING IF THEY ARE A GOOD FIT (straight to the point, wihtout "forcing too much" an ACCOMODATION)**.
