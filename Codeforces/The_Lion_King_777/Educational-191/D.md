@@ -12,3 +12,6 @@ This is mainly because: <br/>
 * I can **RECOGNIZE** a **BREAK-INTO-CASES** problem when there is a **SMALL NUMBER OF POSSIBILITES to take into Account**.
 * In the SansiCup problem, the number **4** SUGGESTS to use a **BREAK-INTO-CASES** approach.
 * In this problem, these parts SUGGESTES A **BREAK-INTO-CASES** approach: "In other words, goods of each type on the shelf must form **ONE** contiguous block" and "You are allowed to choose two different positions at most **ONCE** and swap the goods at these positions.", these 2 statements SUGGEST A SMALL NUMBER of scenarios/possibilities to be analyzed.
+
+## how to call this specific "convergent thinking task":
+We can say that this is a **convergent thinking task** that is **INCREMENTAL** (it's incremental because **I can sense HOW FAR I AM FROM THE SOLUTION** https://www.youtube.com/watch?v=6DxTQiJuAoc ).
