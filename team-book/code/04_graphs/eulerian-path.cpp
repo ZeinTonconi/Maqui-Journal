@@ -5,7 +5,6 @@
 @tags: graph traversal, Hamiltonian path
 */
 
-
 int main() {
     int n;
     vector<vector<int>> g(n, vector<int>(n));

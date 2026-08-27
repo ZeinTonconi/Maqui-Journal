@@ -1,11 +1,9 @@
-
 /*
 @title: Gaussian Elimination
 @category: Math
 @complexity: O(N^3)
 @tags: linear algebra, system of equations
 */
-
 
 const double EPS = 1e-9;
 const int INF = 2; // it doesn't actually have to be infinity or a big number

@@ -1,4 +1,3 @@
-
 /*
 @title: Suffix Array
 @category: Strings

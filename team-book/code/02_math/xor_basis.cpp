@@ -10,7 +10,6 @@ using namespace std;
 
 typedef long long ll;
 
-
 ll rankGauss(vector<ll> x, ll y){
   vector<ll> basis(62,0);
   int r=0;
@@ -18,12 +17,12 @@ ll rankGauss(vector<ll> x, ll y){
   for(int i=0;i<n;i++){
     for(int bit=60;bit>=0;bit--){
       if((x[i]>>bit)&1){
-	if(!basis[bit]){
-	  basis[bit]=x[i];
-	  r++;
-	  break;
-	}
-	x[i]^=basis[bit];
+        if(!basis[bit]){
+          basis[bit]=x[i];
+          r++;
+          break;
+        }
+        x[i]^=basis[bit];
       }
     }
   }
@@ -32,7 +31,7 @@ ll rankGauss(vector<ll> x, ll y){
   for(int bit=60;bit>=0;bit--){
     if((ty>>bit)&1){
       if(basis[bit]){
-	ty^=basis[bit];
+	      ty^=basis[bit];
       }
     }
   }

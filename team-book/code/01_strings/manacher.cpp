@@ -5,7 +5,6 @@
 @tags: palindrome, string manipulation
 */
 
-
 vector<int> manacher_odd(string s) {
     int n = s.size();
     s = "$" + s + "^";
