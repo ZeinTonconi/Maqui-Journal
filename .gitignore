@@ -1,0 +1,5 @@
+*.cpp~
+*.out
+*.exe
+input
+input~
