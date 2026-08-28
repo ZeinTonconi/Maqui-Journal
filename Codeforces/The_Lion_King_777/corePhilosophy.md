@@ -4,7 +4,11 @@
 * By definition, knowledge is ALL THE PATTERNS that one ALREADY KNOWS.
 * So, the ammount of *Accomodation* required to solve a problem in contest time SHOULD NOT BE THAT MUCH.
 * The purpose of this github is to help to make myself follow these principles.
+
 ## Also, this blog is useful:
 https://codeforces.com/blog/entry/116371 <br/>
 The most important part of that blog is: <br/>
 Overall, just make sure you are always thinking new ideas and repeatedly combining old observations to make new ones. Don't worry about solving all at once, just think one small step at a time! Usually this means think what do you know for sure, then use to guess ideas on properties and direction and check if you can prove, combine your previous observations, then repeat. When really stuck, guess more extreme (it is another thing people who aren't improving don't do enough). Actually write down you're observations and make sure you're writing new things as fast as possible, even when seems small or irrelevant.
+
+## And don't forget:
+The most important part to develop (and use) is semantic memory because this way we prevent the recency effect (and a lot of, very probably, (bad) mental biases), by structuring information by *meaningful connections* we can build strong knowledge.
