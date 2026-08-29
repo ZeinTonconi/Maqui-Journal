@@ -18,8 +18,8 @@ TEX_FILE = OUTPUT_DIR / "team-book.tex"
 PDF_FILE = OUTPUT_DIR / "team-book.pdf"
 
 # Page layout
-FONT_SIZE = "6.2pt"
-LINE_HEIGHT = "6.9pt"
+FONT_SIZE = "7.5pt"
+LINE_HEIGHT = "8.3pt"
 MARGIN = "0.42cm"
 COLUMNS = 3
 

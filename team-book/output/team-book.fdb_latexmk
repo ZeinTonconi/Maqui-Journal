@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1786764235.05795 "/home/zein/Competitive-Programming/Training/Maqui-Journal/team-book/output/team-book.tex" "team-book.pdf" "team-book" 1786764236.01003 0
+["pdflatex"] 1787975781.30467 "/home/zein/Competitive-Programming/Training/Maqui-Journal/team-book/output/team-book.tex" "team-book.pdf" "team-book" 1787975782.56705 0
   "/etc/texmf/web2c/texmf.cnf" 1776210229.04623 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/zein/Competitive-Programming/Training/Maqui-Journal/team-book/output/team-book.tex" 1786764232.29397 20217 404c6c1fe89399eb4f652da80e18ac41 ""
+  "/home/zein/Competitive-Programming/Training/Maqui-Journal/team-book/output/team-book.tex" 1787975779.33999 36594 35a627402c82e29474fcf526c6bfb877 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -83,9 +83,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1776210245.9033 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1776210271 8214135 36e407045f12bfb7f3d629df9090d5c9 ""
-  "team-book.aux" 1786764235.93608 162 59504cb8f8bee0a3f0488d753cb23a1e "pdflatex"
-  "team-book.out" 1786764235.4748 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "team-book.tex" 1786764232.29397 20217 404c6c1fe89399eb4f652da80e18ac41 ""
+  "team-book.aux" 1787975782.49989 162 f042405b684a8c860cba07045d113040 "pdflatex"
+  "team-book.out" 1787975781.69965 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "team-book.tex" 1787975779.33999 36594 35a627402c82e29474fcf526c6bfb877 ""
   (generated)
   "team-book.aux"
   "team-book.log"
