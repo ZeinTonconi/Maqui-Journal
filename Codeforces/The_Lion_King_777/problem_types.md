@@ -1,5 +1,5 @@
 # I came up with a realization and understanding of "types of problems":
-The model of user nor in CF is pretty accurate and similar to what I've experienced: <br\>
+The model of user nor in CF is pretty accurate and similar to what I've experienced: <br/>
 
 * L1 cache is about high-level ideas, these are useful to think in an adhoc manner (similar to type C problems that Halim talks about in its book); these are very abstract concepts, for example "working backwards" or "seek for invariants".
 * L2 cache is about structural patterns (like the KMP dp view with a tree) and these patterns are **more concrete** than a concept (but not so concrete as information L3 cache holds).
