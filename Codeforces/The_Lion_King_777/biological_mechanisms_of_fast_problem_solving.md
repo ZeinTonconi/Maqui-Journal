@@ -13,7 +13,7 @@ procedural systems. For mental skills, one of the most important procedural syst
 This is exactly what happens when one is aiming for mastery... And again, experiments just confirm these are facts. <br/>
 Another important realization is that when someone is in a contest, one has limited time, and obviously one needs to solve problems faster 
 in this scenario (and it is not exactly the same behavior as if one has "infinite" time i.e. when one is solving problems but NOT in a contest) 
-the **KEY** *bad habit* to replace is to **REDUCE EVERY MOMENT THE SITUATION that one is at, TO A KNOWN/MASTERED SKILL**, the scientific 
+the **KEY** *good habit* to replace the bad ones is: **REDUCE EVERY MOMENT THE SITUATION that one is at, TO A KNOWN/MASTERED SKILL**, the scientific 
 justification was given above with the basal ganglia (it prevents cognitive overload): this PREVENTS FROM TOO RANDOM GUESSING AND ALLOWS 
 ONLY SIMULATING with (known) SKILLS IN WORKING MEMORY, TESTING IF THE CORRECT SKILL IS BEING USED AT A MOMENT... At the same time 
 mastering a set of skills ALLOWS TO *TRY MORE APPROACHES (AND FASTER)* because WE JUST HAVE TO TEST IF THOSE PATTERNS/SKILLS ARE CORRECT 
