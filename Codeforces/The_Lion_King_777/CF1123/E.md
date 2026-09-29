@@ -1,4 +1,4 @@
-# First approach:
+# First approach and editorial's approach:
 
 My main approach was very direct, it was jotting down an example array 000111000111... and trying to observe patterns for each prefix 
 that starts at i (so I can get n rows, each row has a prefix starting at i), and then I went through more observations (BUT ALSO THIS 
@@ -15,8 +15,16 @@ common pattern also**, after the representational change to diff.array). The pat
 diff.array, that is why the formula for the min. # of operations is ceil(count(1)/2). <br/>
 
 OK, easy so far. Then by searching for what to do (shifting representations) one can manipulate the formula ceil(count(1)/2) with ALGEBRA (**HIGH-LEVEL IDEA**) and 
-realize that if all numerators are even it's easy to just add all numerators and divide everything by 2 (**L2 LEVEL IDEA**).
+realize that if all numerators are even it's easy to just add all numerators and divide everything by 2 (**L2 LEVEL IDEA**). <br/>
+s
+After that, it is intuitive that "I got stuck again" but as I know, this is the signal to think in an adhoc manner (and fail, fail, then succeed) eventually getting to the **high level idea** of "let's see which ranges have odd sum", and proceeding again to use 
+L2 (ah, it's the number of subarrays that start and end with different values in the original array), then followed by ANOTHER 
+**HIGH LEVEL IDEA** that is "let's draw 1 example and see how to count these", followed by **L2** idea (ok, this is just multiplication principle in combinatorics, it's cnt[0]*cnt[1] in the array). <br/>
 
+The same procedure is intuitively going to happen for the last part of the problem, which is the sum overall ranges (the numerator) and 
+the updates... It is predictable that the same pattern is going to happen (L1 ideas -> correct L1 idea -> L2 idea -> realization, L1 ideas -> correct L1 idea -> L2 idea -> relization, and so on). <br/>
+
+So the main pattern here is that FOR HARDER PROBLEMS, THE MORE L1 IS GOING TO TAKE THE MAIN CONTROL.
 
 ## The core change from first approach to editorial's approach:
 
@@ -32,7 +40,7 @@ L2 patterns and L3 algorithms are more concrete than L1 high level ideas... with
 This can be observed in the step by step analysis provided here for the problem, $\color{#CC2936}{\text{\bf once the problem is "CORRECTLY REPRESENTED", IT IS EASY 
 TO TRANSFER L2 PATTERNS AND L3 ALGORITHMS.}}$
 
-## Reinforcement for the Main habit:
+## Positive reinforcement for the Main habit:
 
 When I do not know what to do, feel confused, or too much working memory overload... It is very important to shift to think in 
 adhoc manner, and this can be achieved with thinking in MORE GENERAL TERMS (L1), that is, trying to CLASSIFY THE SITUATION TO $\color{#CC2936}{\text{\bf BIGGER CONTAINERS.}}$
