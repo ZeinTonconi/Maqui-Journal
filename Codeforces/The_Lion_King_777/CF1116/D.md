@@ -6,3 +6,6 @@ An Invariant is a PROPERTY of something (a math object/system) that is PRESERVED
 
 # In this case:
 The invariant was: The "number of connected components (0s and 1s)" (this is the Property) is PRESERVED UNDER the OPERATION described in the problem statement.
+
+# Main lesson of this problem:
+I LACKED THE RELEVANCE of the INVARIANT TOOL. And also the "formal definiton".
