@@ -25,9 +25,14 @@ REPRESENTATIONS/CONNECTIONS, the key differences were:
 * first approach I FELT THE NEED TO WRITE A LOT OF THINGS DOWN (*Working Memory overload* signal); editorial's approach I felt I didn't need to WRITE ANYTHING. This was obviously because of the *SEARCH OF SIMPLER REPRESENTATIONS IN LONG TERM MEMORY* so i.e. *searching to REDUCE TO THINGS I ALREADY KNOW*.
 * first approach accumulates a lot of ISOLATED PARTS and THEN **CONNECT** THEM *ON PAPER*; editorial's approach felt like *EASY CONNECTING*.
 
-## Main habit still very important to keep consistency:
+## Main habit still very important to keep consistent:
 
 There are going to be errors, that's for sure... But it should be also guaranteed by me that I DO NOT GET STUCK and *FORCE MEANINGFUL NAVIGATION* to shift between *REPRESENTATIONS* and reach **faster insights**. <br/>
 L2 patterns and L3 algorithms are more concrete than L1 high level ideas... without classifying something into correct L1 idea(s), L2 and L3 *CANNOT EXIST* because they $\color{#CC2936}{\text{\bf HANG FROM THE HIGH-LEVEL IDEA}}$.
 This can be observed in the step by step analysis provided here for the problem, $\color{#CC2936}{\text{\bf once the problem is "CORRECTLY REPRESENTED", IT IS EASY 
 TO TRANSFER L2 PATTERNS AND L3 ALGORITHMS.}}$
+
+## Reinforcement for the Main habit:
+
+When I do not know what to do, feel confused, or too much working memory overload... It is very important to shift to think in 
+adhoc manner, and this can be achieved with thinking in MORE GENERAL TERMS (L1), that is, trying to CLASSIFY THE SITUATION TO $\color{#CC2936}{\text{\bf BIGGER CONTAINERS.}}$
