@@ -29,3 +29,5 @@ REPRESENTATIONS/CONNECTIONS, the key differences were:
 
 There are going to be errors, that's for sure... But it should be also guaranteed by me that I DO NOT GET STUCK and *FORCE MEANINGFUL NAVIGATION* to shift between *REPRESENTATIONS* and reach **faster insights**. <br/>
 L2 patterns and L3 algorithms are more concrete than L1 high level ideas... without classifying something into correct L1 idea(s), L2 and L3 *CANNOT EXIST* because they $\color{#CC2936}{\text{\bf HANG FROM THE HIGH-LEVEL IDEA}}$.
+This can be observed in the step by step analysis provided here for the problem, $\color{#CC2936}{\text{\bf once the problem is "CORRECTLY REPRESENTED", IT IS EASY 
+TO TRANSFER L2 PATTERNS AND L3 ALGORITHMS.}}$
