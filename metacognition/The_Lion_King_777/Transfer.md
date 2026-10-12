@@ -9,5 +9,5 @@ This is a CORE element in competitive programming because patterns actually repe
 # Key sub-habit:
 Try to actually recruit more thinking ideas/patterns/heuristics to **prevent cognitive overload** and getting more help in Complex Problem Solving. <br/>
 Just try, I mean, try to actually USE TOOLS FROM MEMORY TO PREVENT OVERWHELM (and solve problems FASTER). <br/>
-A "tiny anchor" that I can use can be: "OK, so what thought is next. OK, what is next now", and so on... <br/>
+A "tiny anchor" that I can use can be: "OK, memory/intuition please help me... OK, what can I do now that I know how to do", and so on... <br/>
 **The key detail is to NOT overload the working memory. Remember that you have a limited capacity in working memory, but it's also a mistake to not use it at all to test some scenarios.**
