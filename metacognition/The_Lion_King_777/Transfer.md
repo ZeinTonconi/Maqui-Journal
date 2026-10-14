@@ -18,4 +18,5 @@ The goal is to *REDUCE THE PROBLEM TO AN EASY SITUATION* that *is easy to solve 
 **IMPORTANT NOTE:** The *easy situation* is *not necessarily* some old pattern, but a new pattern, but that is easy enough to notice by using big ideas and concepts (L1 cache) to reduce the situation to a "desired" situation. <br/>
 Yes, the hard part is the reduction part. <br/> <br/>
 
-The "algorithm" is to try a lot of reductions in a short time, just use L1 cache and mental-debugging to get to these situations/reductions faster and test them quickly.
+The "algorithm" is to try a lot of reductions in a short time, just use L1 cache and mental-debugging to get to these situations/reductions faster and test them quickly. This is opposite to "forcing things" because by using big ideas and 
+concepts I am actually building the "scenarios" from "first principles".
