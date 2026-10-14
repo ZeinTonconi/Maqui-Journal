@@ -11,3 +11,8 @@ Try to actually recruit more thinking ideas/patterns/heuristics to **prevent cog
 Just try, I mean, try to actually USE TOOLS FROM MEMORY TO PREVENT OVERWHELM (and solve problems FASTER). <br/>
 A "tiny anchor" that I can use can be: "OK, memory/intuition please help me... OK, what can I do now that I know how to do", and so on... <br/>
 **The key detail is to NOT overload the working memory. Remember that you have a limited capacity in working memory, but it's also a mistake to not use it at all to test some scenarios.**
+
+# update 1:
+I think I have enough understanding of the process, this is why I think I just have to try very hard during contest and *DO NOT GET STUCK*. <br/>
+The goal is to *REDUCE THE PROBLEM TO AN EASY SITUATION* that *is easy to solve for me*. <br/>
+Yes, the hard part is the reduction part.
