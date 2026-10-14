@@ -16,4 +16,6 @@ A "tiny anchor" that I can use can be: "OK, memory/intuition please help me... O
 I think I have enough understanding of the process, this is why I think I just have to try very hard during contest and *DO NOT GET STUCK*. <br/>
 The goal is to *REDUCE THE PROBLEM TO AN EASY SITUATION* that *is easy to solve for me*. <br/>
 **IMPORTANT NOTE:** The *easy situation* is *not necessarily* some old pattern, but a new pattern, but that is easy enough to notice by using big ideas and concepts (L1 cache) to reduce the situation to a "desired" situation. <br/>
-Yes, the hard part is the reduction part.
+Yes, the hard part is the reduction part. <br/> <br/>
+
+The "algorithm" is to try a lot of reductions in a short time, just use L1 cache and mental-debugging to get to these situations/reductions faster and test them quickly.
