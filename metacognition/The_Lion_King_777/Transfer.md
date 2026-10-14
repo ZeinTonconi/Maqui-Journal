@@ -19,4 +19,7 @@ The goal is to *REDUCE THE PROBLEM TO AN EASY SITUATION* that *is easy to solve 
 Yes, the hard part is the reduction part. <br/> <br/>
 
 The "algorithm" is to try a lot of reductions in a short time, just use L1 cache and mental-debugging to get to these situations/reductions faster and test them quickly. This is opposite to "forcing things" because by using big ideas and 
-concepts I am actually building the "scenarios" from "first principles".
+concepts I am actually building the "scenarios" from "first principles". So every part complements each other: I repeat 
+old problems to extract (old) patterns, these are *big* part of the "easier scenarios" (but *NOT ALL* the easy scenarios) and  
+learn them... and in hard contest problems (such as div2 D,E) the L1 cache and working memory should carry most of the work, to actually REDUCE the situation to a known or easier (but not known) situation... 
+**Trust yourself.**
