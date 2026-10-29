@@ -11,7 +11,7 @@ unnecessary "bridge points". <br/>
 
 OK, after this I thought that I could come up with a DP solution, and I did, but it took too long, but why?
 
-# Why the second solution (but the first submission) took too long:
+# Why the second solution (the first submission) took too long:
 
 I think it was because of the *cognitive load theory*... <br/>
 
