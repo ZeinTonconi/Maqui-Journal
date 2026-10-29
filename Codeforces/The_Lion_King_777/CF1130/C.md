@@ -61,4 +61,8 @@ WHERE IT PROVES THAT SUCH A CASE EXISTS, and it gave AC... so: <br/>
 *Sometimes when one does not know what is wrong AND CAN'T COME UP WITH A PROOF QUICKLY, it's OK to GUESS what is wrong by 
 PUTTING PATCHES in the code!* <br/>
 
+## Another lesson:
+
+*Even if the patches seem to be weak or small (e.g. the small change of dp[0]=2 in this problem), sometimes those small changes en up working!*
+
 And this could've been an earlier AC.
