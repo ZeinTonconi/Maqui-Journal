@@ -48,8 +48,8 @@ some NOVEL COMBINATION of the PIECES I ALREADY HAVE... Most of the times the ans
 
 Following all said before, I can conclude the following: <br/>
 
-*I SHOULD NEVER do CYCLIC THINKING, this is a deadly end and a waste of time! Instead, try to **combine previous ideas/pieces** if 
-cannot come up with an insight or divergent thinking idea*
+*I SHOULD NEVER-EVER do CYCLIC THINKING, this is a deadly end and a waste of time! Instead, try to **combine ideas/pieces that are 
+ALREADY HERE in DIFFERENT WAYS** if cannot come up with an insight or divergent thinking idea*.
 
 ## Another lesson (more specific to the problem):
 
