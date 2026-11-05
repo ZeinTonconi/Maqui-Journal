@@ -1,43 +1,88 @@
 /*
-@title: XOR Basis
-@category: Math
-@complexity: O(N log A)
-@tags: linear algebra, system of equations
+@title: XOR Basis (64-bit)
+@complexity: O(64) per insertion, representation, or query
+@tags: linear basis, rank, representation, maximum XOR, subset counting
+@priority: 30
 */
 
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef long long ll;
+struct XorBasis {
+    using ull = unsigned long long;
+    static constexpr int BITS = 64;
 
-ll rankGauss(vector<ll> x, ll y){
-  vector<ll> basis(62,0);
-  int r=0;
-  int n=x.size();
-  for(int i=0;i<n;i++){
-    for(int bit=60;bit>=0;bit--){
-      if((x[i]>>bit)&1){
-        if(!basis[bit]){
-          basis[bit]=x[i];
-          r++;
-          break;
+    // basis[b] has highest set bit b. coefficient[b] expresses that vector
+    // as a subset of the independent vectors in insertion order.
+    array<ull, BITS> basis{};
+    array<ull, BITS> coefficient{};
+    int rank = 0;
+
+    // Returns true exactly when x increases the rank.
+    bool insert(ull x) {
+        ull used = (rank < BITS ? (1ULL << rank) : 0);
+        for (int bit = BITS - 1; bit >= 0; --bit) {
+            if (((x >> bit) & 1ULL) == 0) continue;
+            if (basis[bit]) {
+                x ^= basis[bit];
+                used ^= coefficient[bit];
+            } else {
+                basis[bit] = x;
+                coefficient[bit] = used;
+                ++rank;
+                return true;
+            }
         }
-        x[i]^=basis[bit];
-      }
+        return false;
     }
-  }
 
-  ll ty=y;
-  for(int bit=60;bit>=0;bit--){
-    if((ty>>bit)&1){
-      if(basis[bit]){
-	      ty^=basis[bit];
-      }
+    // If x is representable, writes the subset mask in independent-vector
+    // insertion order to mask. A 64-bit input has at most 64 such vectors.
+    bool representation(ull x, ull &mask) const {
+        mask = 0;
+        for (int bit = BITS - 1; bit >= 0; --bit) {
+            if (((x >> bit) & 1ULL) == 0) continue;
+            if (!basis[bit]) return false;
+            x ^= basis[bit];
+            mask ^= coefficient[bit];
+        }
+        return x == 0;
     }
-  }
-  if(ty!=0) return -1;
-  
-  // The number of subset that forms y is 2^(n-r) where r is the rank of the basis and n is the number of elements in the original set.
 
-  return r;
-}
+    bool contains(ull x) const {
+        ull unused;
+        return representation(x, unused);
+    }
+
+    // Maximum or minimum value among seed XOR every subset-XOR in the basis.
+    ull max_xor(ull seed = 0) const {
+        for (int bit = BITS - 1; bit >= 0; --bit)
+            seed = max(seed, seed ^ basis[bit]);
+        return seed;
+    }
+
+    ull min_xor(ull seed = 0) const {
+        for (int bit = BITS - 1; bit >= 0; --bit)
+            seed = min(seed, seed ^ basis[bit]);
+        return seed;
+    }
+
+    static ull pow_mod(ull a, ull e, ull mod) {
+        assert(mod > 0);
+        ull result = 1 % mod;
+        while (e) {
+            if (e & 1) result = (unsigned __int128)result * a % mod;
+            a = (unsigned __int128)a * a % mod;
+            e >>= 1;
+        }
+        return result;
+    }
+
+    // Counts subsets of the original n input values whose XOR equals target.
+    // Requires mod > 0 and n >= rank.
+    ull count_subsets_mod(int n, ull target, ull mod) const {
+        assert(mod > 0 && n >= rank);
+        if (!contains(target)) return 0;
+        return pow_mod(2, n - rank, mod);
+    }
+};

@@ -6,23 +6,23 @@
 */
 
 struct Edge {
-    int a, b, cost;
+    int a, b;
+    long long cost;
 };
 
 int n;
 vector<Edge> edges;
-const int INF = 1000000000;
-
 void solve() {
-    vector<int> d(n, 0);
+    vector<__int128> d(n, 0);
     vector<int> p(n, -1);
-    int x;
+    int x = -1;
 
     for (int i = 0; i < n; ++i) {
         x = -1;
         for (Edge e : edges) {
-            if (d[e.a] + e.cost < d[e.b]) {
-                d[e.b] = max(-INF, d[e.a] + e.cost);
+            __int128 candidate = d[e.a] + e.cost;
+            if (candidate < d[e.b]) {
+                d[e.b] = candidate;
                 p[e.b] = e.a;
                 x = e.b;
             }

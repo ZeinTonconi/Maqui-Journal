@@ -18,8 +18,8 @@ TEX_FILE = OUTPUT_DIR / "team-book.tex"
 PDF_FILE = OUTPUT_DIR / "team-book.pdf"
 
 # Page layout
-FONT_SIZE = "7.5pt"
-LINE_HEIGHT = "8.3pt"
+FONT_SIZE = "8.3pt"
+LINE_HEIGHT = "9.1pt"
 MARGIN = "0.42cm"
 COLUMNS = 3
 
@@ -29,15 +29,14 @@ COLUMNS = 3
 # ============================================================
 
 CATEGORIES = {
-    "01_implementation": "Implementation",
-    "02_data_structures": "Data Structures",
-    "03_graph": "Graph",
-    "04_trees": "Trees",
-    "05_strings": "Strings",
-    "06_math": "Math",
-    "07_geometry": "Geometry",
-    "08_dp": "Dynamic Programming",
-    "09_advanced": "Advanced",
+    "01_strings": "Strings",
+    "02_math": "Math",
+    "03_trees": "Trees",
+    "04_graphs": "Graphs",
+    "05_flows": "Flows",
+    "06_geometry": "Geometry",
+    "07_dp": "Dynamic Programming",
+    "08_data-structure": "Data Structures",
 }
 
 

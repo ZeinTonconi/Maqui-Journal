@@ -7,15 +7,15 @@
 
 /*
     DP of the form:
-        dp[i][j] = min_{0 <= k <= j} dp[i-1][k-1] + C(k,j)
+        dp[g][j] = min_{g-1 <= k <= j} dp[g-1][k-1] + C(k,j)
     where opt[i][j] is monotone:
         opt[i][j] <= opt[i][j+1]
     Sufficient condition:
         C(a,c) + C(b,d) <= C(a,d) + C(b,c)
         for a <= b <= c <= d.
     IMPORTANT:
-        If exactly i groups are required, the valid range
-        of k usually needs an additional lower bound.
+        solve() computes exactly m nonempty groups. On layer i, k >= i
+        guarantees each group contains at least one element.
 */
 
 using ll = long long;
@@ -44,12 +44,16 @@ void compute(int l, int r, int optl, int optr) {
 }
 
 ll solve() {
+    if (n <= 0 || m < 1 || m > n)
+        return LLONG_MAX;
     dp_before.assign(n, 0);
     dp_cur.assign(n, 0);
     for (int j = 0; j < n; j++)
         dp_before[j] = C(0, j);
+    const ll INF = LLONG_MAX;
     for (int i = 1; i < m; i++) {
-        compute(0, n - 1, 0, n - 1);
+        fill(dp_cur.begin(), dp_cur.end(), INF);
+        compute(i, n - 1, i, n - 1);
         dp_before = dp_cur;
     }
     return dp_before[n - 1];

@@ -35,11 +35,13 @@ for (ull p : {
         d >>= 1;
         ++s;
     }
+    // Deterministic witness set for all unsigned 64-bit integers.
     for (ull a : {
-        2ULL, 3ULL, 5ULL, 7ULL, 11ULL, 13ULL,
-        17ULL, 19ULL, 23ULL, 29ULL, 31ULL, 37ULL
+        2ULL, 325ULL, 9375ULL, 28178ULL,
+        450775ULL, 9780504ULL, 1795265022ULL
     }) {
-        if (a >= n)
+        a %= n;
+        if (a == 0)
             continue;
         ull x = mod_pow(a, d, n);
         if (x == 1 || x == n - 1)
